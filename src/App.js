@@ -3,11 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Weather from './components/Weather.js';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <header className="App-header">
-        <Weather/>
+        <Weather city = "Paris"/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
